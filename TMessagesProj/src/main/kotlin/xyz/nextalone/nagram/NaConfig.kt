@@ -254,7 +254,7 @@ object NaConfig {
         addConfig(
             "DisableGlobalSearch",
             ConfigItem.configTypeBool,
-            false
+            true
         )
     val hideOriginAfterTranslation: ConfigItem =
         addConfig(
